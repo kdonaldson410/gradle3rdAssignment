@@ -1,0 +1,9 @@
+task hello {
+    doLast {
+        println 'Hello Gradle Assignment without shortcuts!'
+    }
+}
+
+task helloShortcut << {
+    println 'Hello Gradle Assignment with shortcuts!'
+}
